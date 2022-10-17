@@ -19,8 +19,8 @@ public class Car {
     @Column(nullable = false)
     private String modelName;
     @Column(nullable = false)
-    private int SerialNumber;
-    @Column(nullable = false)
     private double currentPrice;
+    @Column(nullable = false)
+    private String serialNumber;
 
 }
